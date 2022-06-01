@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CyberMusic Añadir Música</title>
+
+  <!-- BOOTSWATCH -->
+  <link rel="stylesheet" href="https://bootswatch.com/5/yeti/bootstrap.min.css" />
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-dark">
+  <!-- ADD TASK -->
+  <img class="adminBanner" src="Recursos/Image 1@1x (1).png">  
+  <p class="textoBase1"><strong>Bienvenido al menú de  caciones.</strong></p>
+  <p class="textoBase2">
+    <strong>Tutorial:</strong>
+
+    <br>-Ingrese los datos en la derecha y cargue un archivo de audio (.mp3).
+    <br>-A la derecha podra ver la base de datos, editar cada elemento y eliminarlo.
+  </p>
+  <a href="administardorMain.html" class="backButton">Back</a>
+  <div class="container p-4">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-body">
+            <h1 class="h4">Adicionar una Canción</h1>
+
+            <form id="task-form">
+              <label for="title">Nombre:</label>
+              <input type="text" id="task-title" class="form-control mb-3" class="My First Title"
+                placeholder="Nombre de la Canción" autofocus />
+
+              <label for="description">Artista:</label>
+              <textarea id="task-description" rows="1" class="form-control mb-3"
+                placeholder="Artista de la Canción"></textarea>
+
+              <label for="genre">Genero:</label>
+              <textarea id="task-genre" rows="1" class="form-control mb-3"
+                placeholder="Genero de la Canción"></textarea>
+              
+              <input id="file_to_load" type="file" />
+              </br>
+              </br>
+
+              <button class="btn btn-primary" id="btn-task-form">Guardar</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <!-- Tasks List -->
+      <div class="col-md-6" id="tasks-container"></div>
+    </div>
+  </div>
+
+  <!-- CUSTOM CODE -->
+  <script src="./index.js" type="module"></script>
+</body>
+
+</html>

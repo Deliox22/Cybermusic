@@ -1,0 +1,687 @@
+body {  background-color: white;
+}
+
+h1 {
+  color: grey;
+    text-align: center;
+}
+ 
+ p {
+   font-family: verdana;
+   font-size: 20px;
+ }
+.ImagenLogo {
+    position: absolute;
+    left: 120px;
+    top: 50px;
+    z-index: -1; }
+
+.Imagenfondo{
+    z-index: -1;
+    position: absolute;
+    left: 0px;
+    top: 10px; }
+ 
+
+.textointro{
+    z-index: -1;
+    position: absolute;
+    font-size:30px;
+    left: 1300px;
+    top: 550px;}
+
+.textointro1{
+    z-index: -1;
+    position: absolute;
+    font-size:100px;
+    left: 1300px;
+    top: 130px;}
+
+.textointro2{
+    z-index: -1;
+    color: #303236;
+    position: absolute;
+    font-size:100px;
+    left: 1300px;
+    top: 230px;}
+
+.textointro3{
+    z-index: -1;
+    position: absolute;
+    font-size:100px;
+    left: 1300px;
+    top: 330px;}
+
+.myButton {
+      position: absolute;
+      left: 1600px;
+      top: 30px;
+      background-color:#000000;
+      border-radius:8px;
+      display:inline-block;
+      cursor:pointer;
+      color:#ffffff;
+      font-family:Arial;
+      font-size:20px;
+      font-weight:bold;
+      padding:13px 32px;
+      text-decoration:none;
+    }
+.myButton:hover {
+    background-color:#080808;
+    left: 1600px;
+    top: 30px;
+    }
+
+.aboutUsButton {
+     position: absolute;
+    left: 1300px;
+    top: 30px;
+    background-color:#000000;
+    border-radius:8px;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:20px;
+    font-weight:bold;
+    padding:13px 32px;
+    text-decoration:none;
+      }
+
+
+.AboutUs{
+    background-color: black;
+}
+
+.AboutUsBack {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    background-color:white;
+    border-radius:8px;
+    display:inline-block;
+    cursor:pointer;
+    color: black;
+    font-family:Arial;
+    font-size:20px;
+    font-weight:bold;
+    padding:13px 32px;
+    text-decoration:none;
+  }
+.AboutUsBack:hover {
+  background-color:#080808;
+  color: white;
+  left: 10px;
+  top: 10px;
+  }
+
+.ImagenAboutUsCalavera{
+    position: absolute;
+    width: 70%;
+    left: 300px;
+    top: 200px; 
+}
+
+.TextoAboutUs1{
+    z-index: -1;
+    color: white;
+    position: relative;
+    font-size:100px;
+    left: 450px;
+    top: -80px;
+}
+
+.TextoAboutUs2{
+    z-index: 0;
+    color: white;
+    text-align: center;
+    position: absolute;
+    width: 45%;
+    font-size:30px;
+    left: 540px;
+    top: 400px;
+}
+
+.TextoAboutUs3{
+    z-index: 0;
+    color: white;
+    text-align: center;
+    position: absolute;
+    width: 45%;
+    font-size:30px;
+    left: 540px;
+    top: 700px;
+}
+
+.ImagenAboutUsSlider{
+    position: absolute;
+    width: 30%;
+    transition: all .5s;
+    left: 1700px;
+    top: -400px; 
+}
+
+.ImagenAboutUsSlider:hover {
+
+    left: 1400px;
+    top: -400px; 
+    }
+
+.PrincipalBackButtonToMain{
+    position: absolute;
+    width: 20%;
+    left: 0px;
+    top: 20px; 
+}
+.ImagenPrincipal1{
+    position: absolute;
+    width: 90%;
+    left: 350px;
+    top: -1160px; 
+}
+
+.PrincipalBotónRecomendacion {
+    position: relative;
+    left: 60px;
+    top: 300px;
+	box-shadow:inset 0px 1px 3px 0px #ffffff;
+	background-color:transparent;
+	border-radius:41px;
+	border:4px solid #d1d1d1;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Verdana;
+	font-size:27px;
+	font-weight:bold;
+	padding:12px 15px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #d1deff;}
+
+.PrincipalBotónRecomendacion:hover {
+	background-color:transparent;
+}
+
+.PrincipalBotónRecomendacion:active {
+	position:relative;
+    left: 60px;
+    top: 301px;
+
+}
+
+.PrincipalBotónCanciones {
+    position: relative;
+    left: 60px;
+    top: 300px;
+	box-shadow:inset 0px 1px 3px 0px #ffffff;
+	background-color:transparent;
+	border-radius:41px;
+	border:4px solid #d1d1d1;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Verdana;
+	font-size:27px;
+	font-weight:bold;
+	padding:12px 15px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #d1deff;}
+
+.PrincipalBotónCanciones:hover {
+	background-color:transparent;
+}
+
+.PrincipalBotónCanciones:active {
+	position:relative;
+    left: 60px;
+    top: 301px;
+
+}
+
+.PrincipalBotónPartituras {
+    position: relative;
+    left: 60px;
+    top: 300px;
+	box-shadow:inset 0px 1px 3px 0px #ffffff;
+	background-color:transparent;
+	border-radius:41px;
+	border:4px solid #d1d1d1;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Verdana;
+	font-size:27px;
+	font-weight:bold;
+	padding:12px 15px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #d1deff;}
+
+.PrincipalBotónPartituras:hover {
+	background-color:transparent;
+}
+
+.PrincipalBotónPartituras:active {
+	position:relative;
+    left: 60px;
+    top: 301px;
+
+}
+
+.PrincipalBotónAñadir {
+    position: relative;
+    left: 60px;
+    top: 300px;
+	box-shadow:inset 0px 1px 3px 0px #ffffff;
+	background-color:transparent;
+	border-radius:41px;
+	border:4px solid #d1d1d1;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Verdana;
+	font-size:27px;
+	font-weight:bold;
+	padding:12px 15px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #d1deff;}
+
+.PrincipalBotónAñadir:hover {
+	background-color:transparent;
+}
+
+.PrincipalBotónAñadir:active {
+	position:relative;
+    left: 60px;
+    top: 301px;
+
+}
+
+.ImagenPrincipal2{
+    position: absolute;
+    width: 90%;
+    left: 100px;
+    top: 500px; 
+}
+
+.ImagenPrincipal3{
+    position: absolute;
+    width: 90%;
+    left: 100px;
+    top: 1200px; 
+}
+
+.PrincipalBethoveen{
+    position: absolute;
+    width: 13%;
+    left: 200px;
+    top: 1400px; 
+}
+
+.PrincipalBach{
+    position: absolute;
+    width: 13%;
+    left: 450px;
+    top: 1400px; 
+}
+
+.PrincipalVivaldi{
+    position: absolute;
+    width: 13%;
+    left: 700px;
+    top: 1400px; 
+}
+
+.PrincipalMozart{
+    position: absolute;
+    width: 13%;
+    left: 950px;
+    top: 1400px; 
+}
+
+.PrincipalChopin{
+    position: absolute;
+    width: 13%;
+    left: 1200px;
+    top: 1400px; 
+}
+
+.PrincipalSchubert{
+    position: absolute;
+    width: 13%;
+    left: 1450px;
+    top: 1400px; 
+}
+
+.ImagenPrincipal4{
+    position: absolute;
+    width: 30%;
+    left: 100px;
+    top: 1250px; 
+}
+
+.ImagenPrincipal5{
+    position: absolute;
+    width: 90%;
+    left: 100px;
+    top: 1900px; 
+}
+
+.ImagenPrincipal6{
+    position: absolute;
+    width: 40%;
+    left: 100px;
+    top: 1800px; 
+}
+
+.PrincipalCanon{
+    position: absolute;
+    width: 40%;
+    left: 200px;
+    top: 2150px; 
+}
+
+.PrincipalPrelude{
+    position: absolute;
+    width: 40%;
+    left: 1000px;
+    top: 2150px; 
+}
+
+.Bethoveen1{
+    position: absolute;
+    width: 40%;
+    left: 0px;
+    top: 0px; 
+}
+
+.textoBeethoven{
+    color: black;
+    text-align: center;
+    position: absolute;
+    width: 45%;
+    font-size:80px;
+    left: 750px;
+    top: 000px;
+}
+.textoBeethoven2{
+    color: black;
+    text-align: left;
+    position: absolute;
+    width: 45%;
+    font-size:20px;
+    left: 800px;
+    top: 300px;
+}
+
+.Partituras{
+    z-index: -1;
+    position: absolute;
+    width: 110%;
+    left: -20px;
+    top: -800px; 
+}
+
+.textoPartituras{
+    color: black;
+    text-align: center;
+    position: absolute;
+    width: 60%;
+    font-size:80px;
+    left: 450px;
+    top: -70px;
+}
+.textoPartituras1{
+    color: black;
+    text-align: center;
+    position: absolute;
+    width: 75%;
+    font-size:30px;
+    left: 150px;
+    top: 150px;
+}
+
+.Canon{
+    z-index: -1;
+    position: absolute;
+    width: 90%;
+    left: 50px;
+    top: 650px; 
+}
+.ImagenCancion1{
+    z-index: -1;
+    position: absolute;
+    width: 90%;
+    left: 350px;
+    top: -1250px; 
+}
+
+.container {
+    position: absolute;
+    width: 250%;
+    left: 250px;
+    top: 400px;
+}
+
+.ImagenPartituras1{
+    z-index: -1;
+    position: absolute;
+    width: 90%;
+    left: 350px;
+    top: -1250px; 
+}
+.Login{
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    left: 1220px;
+    top: 850px; 
+}
+
+.adminBanner{
+    z-index: -1;
+    position: absolute;
+    width: 120%;
+    left: -200px;
+    top: -1650px; 
+}
+
+.textoAdmin{
+    color: black;
+    text-align: center;
+    position: absolute;
+    width: 90%;
+    font-size:80px;
+    left: 050px;
+    top: -70px;
+}
+.textoAdmin1{
+    color: black;
+    text-align: right;
+    position: absolute;
+    width: 40%;
+    font-size:30px;
+    left: 1050px;
+    top: 250px;
+}
+.ImagenAdmin1{
+    position: absolute;
+    width: 50%;
+    left: 200px;
+    top: 550px;
+}
+.ImagenAdmin2{
+    position: absolute;
+    width: 50%;
+    left: 200px;
+    top: 950px;
+}
+
+.LogOut {
+    z-index: 2;
+    position: absolute;
+    left: 1700px;
+    top: 50px;
+	box-shadow: 3px 4px 12px 0px #899599;
+	background:linear-gradient(to bottom, #ededed 5%, #b3b3b3 100%);
+	background-color:#ededed;
+	border-radius:18px;
+	border:1px solid #adadad;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Arial;
+	font-size:18px;
+	font-weight:bold;
+	padding:13px 17px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #e1e2ed;}
+
+.LogOut:hover {
+    z-index: 2;
+	background:linear-gradient(to bottom, #b3b3b3 5%, #ededed 100%);
+	background-color:#b3b3b3;
+}
+.LogOut:active {
+    z-index: 2;
+	position:relative;
+    left: 1690px;
+    top: 51px;
+}
+
+.ImagenAdministradoFondo{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    left: 200px;
+    top: 450px;
+}
+
+.ImagenAdministradoFondo1{
+    position: absolute;
+    width: 33%;
+    height: 40%;
+    left: 1200px;
+    top: 650px;
+}
+
+.Access {
+	box-shadow: 3px 4px 12px 0px #899599;
+	background:linear-gradient(to bottom, #ededed 5%, #b3b3b3 100%);
+	background-color:#ededed;
+	border-radius:18px;
+	border:1px solid #adadad;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:11px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #e1e2ed;}
+.Access:hover {
+	background:linear-gradient(to bottom, #b3b3b3 5%, #ededed 100%);
+	background-color:#b3b3b3;
+}
+.Access:active {
+	position:relative;
+	top:1px;
+}
+ 
+.textoAñadir1{
+    color: black;
+    text-align: center ;
+    position: absolute;
+    width: 45%;
+    font-size:40px;
+    left: 250px;
+    top: 460px;
+}
+
+.textoAñadir2{
+    color: black;
+    text-align: left;
+    position: absolute;
+    width: 45%;
+    font-size:20px;
+    left: 250px;
+    top: 600px;
+}
+
+.ImagenAdministradoFondo3{
+    position: absolute;
+    width: 30%;
+    left: 430px;
+    top: 820px;
+}
+.textoAñadir3{
+    color: black;
+    text-align: left;
+    position: absolute;
+    width: 45%;
+    font-size:60px;
+    left: 1350px;
+    top: 650px;
+}
+.textoAñadir4{
+    color: black;
+    text-align: center;
+    position: absolute;
+    width: 45%;
+    font-size:30px;
+    left: 1100px;
+    top: 750px;
+}
+.textoBase1{
+    color: black;
+    text-align: center;
+    position: absolute;
+    width: 45%;
+    font-size:60px;
+    left: 100px;
+    top: 50px;
+}
+.textoBase2{
+    color: black;
+    text-align: center;
+    position: absolute;
+    width: 45%;
+    font-size:30px;
+    left: 1000px;
+    top: 50px;
+}
+
+.backButton {
+    z-index: 2;
+    position: absolute;
+    left: 1700px;
+    top: 20px;
+	box-shadow: 3px 4px 12px 0px #899599;
+	background:linear-gradient(to bottom, #ededed 5%, #b3b3b3 100%);
+	background-color:#ededed;
+	border-radius:18px;
+	border:1px solid #adadad;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:11px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #e1e2ed;}
+.backButton:hover {
+	background:linear-gradient(to bottom, #b3b3b3 5%, #ededed 100%);
+	background-color:#b3b3b3;
+}
+.backButton:active {
+	position:relative;
+	top:1px;
+}
+
+.adminBanner2{
+    position: absolute;
+    left: 1250px;
+    top: 700px;
+}
